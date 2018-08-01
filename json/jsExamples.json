@@ -3,25 +3,25 @@
     {
     "img": "imgs/toDoList.png",
     "alt": "To Do List Application",
-    "href": "http://coreysimpson.com/examples/js/toDo",
+    "href": "./examples/js/toDo",
     "back": "Application utilizing client-side Local Storage"
     },
     {
     "img": "imgs/ngTVShow.png",
     "alt": "AngularJS - TVShow Listing",
-    "href": "http://coreysimpson.com/examples/js/ngTVShow",
+    "href": "./examples/js/ngTVShow",
     "back": "Application built with AngularJS displaying real-time TV Show info for TV programs due to air within the upcoming 30 days. Allows filtering of data. Info pulled from trak.tv"
     },
     {
     "img": "imgs/calculator.png",
     "alt": "Calculator Application",
-    "href": "http://coreysimpson.com/examples/js/calc",
+    "href": "./examples/js/calc",
     "back": "Simple calculator built using JS methods"
     },
     {
     "img": "imgs/flipBook.png",
     "alt": "Catalog Application",
-    "href": "http://coreysimpson.com/examples/js/hazelFlip",
+    "href": "./examples/js/hazelFlip",
     "back": "Digital Flipbook catalog"
     }
     ]
