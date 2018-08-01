@@ -1,0 +1,220 @@
+<html>
+<head>
+<title>
+CAL-Q-L8R
+</title>
+<style type="text/css">
+
+body
+{
+position:relative;
+top:250px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+border:3px groove royalblue;
+width:220px;
+height:380px;
+}
+
+#shadow
+{
+position:absolute;
+top:23px;
+left:17px;
+height:380px;
+width:220px;
+z-index:-2;
+background-color:black;
+}
+
+#calcolor
+{
+position:absolute;
+top:0px;
+left:0px;
+height:380px;
+width:220px;
+background-color:steelblue;
+z-index:-1;
+}
+
+#numblank
+{
+position:absolute;
+top:43px;
+left:40px;
+}
+
+#label
+{
+position:absolute;
+top:73px;
+left:50px;
+}
+
+#solar1
+{
+position:absolute;
+top:15px;
+right:20px;
+height:15px;
+}
+
+#solar2
+{
+position:absolute;
+top:15px;
+right:40px;
+height:15px;
+}
+
+#solar3
+{
+position:absolute;
+top:15px;
+right:60px;
+height:15px;
+}
+
+#buttons
+{
+position:absolute;
+top:100px;
+left:0px;
+width:220px;
+}
+
+</style>
+</head>
+<body>
+<div id="calcolor">
+</div>
+<div id="shadow">
+</div>
+<script type="text/javascript">
+<!--
+
+function writenum(id,numValue){
+document.getElementById("numfield").value+=(numValue)
+}
+
+function writesym(id,symValue){
+document.getElementById("numfield").value+=(symValue)
+}
+
+function leftpar(){
+var par="("
+document.getElementById("numfield").value+=(par)
+}
+
+function rightpar(){
+var par=")"
+document.getElementById("numfield").value+=(par)
+}
+
+function writec(){
+var input=document.getElementById("addbut").value
+document.getElementById("numfield").value=""
+}
+
+function writepi(){
+var pi=Math.PI
+document.getElementById("numfield").value+=(pi)
+}
+
+function writesin(){
+var num=document.getElementById("numfield").value
+var sin=Math.sin(num)
+document.getElementById("numfield").value=(sin)
+}
+
+function writecos(){
+var num=document.getElementById("numfield").value
+var cos=Math.cos(num)
+document.getElementById("numfield").value=(cos)
+}
+
+function writetan(){
+var num=document.getElementById("numfield").value
+var tan=Math.tan(num)
+document.getElementById("numfield").value=(tan)
+}
+
+function numsqrt(){
+var input=document.getElementById("numfield").value
+var numsqrt=Math.sqrt(input)
+document.getElementById("numfield").value=(numsqrt)
+}
+
+function evalu8(){
+var input=document.getElementById("numfield").value
+var result=(eval(input))
+document.getElementById("numfield").value=(result)
+}
+
+//-->
+</script>
+<hr width=90%>
+<br/>
+<div id="solar1">
+<img src="solarcelldark.jpg">
+</div>
+<div id="solar2">
+<img src="solarcelldark.jpg">
+</div>
+<div id="solar3">
+<img src="solarcelldark.jpg">
+</div>
+<div id="numblank">
+<form>
+<input type="text" id="numfield" style="text-align:right;">
+</form>
+</div>
+<br/>
+<span id="label">
+CAL-Q-L8R 5000x
+</span>
+<div id="buttons">
+<form> 
+<input type="button" onClick="writesin('sinbut','sin')" id="sinbut" value=" sin " style="background-color:#a7c77c">
+<input type="button" onClick="writecos('cosbut','cos')" id="cosbut" value=" cos " style="background-color:#a7c77c">
+<input type="button" onClick="writetan('tanbut','tan')" id="tanbut" value=" tan " style="background-color:#a7c77c">
+<input type="button" onClick="writec()" id="cbut" value="   C   " style="background-color:#c41700">
+</form>
+<form> 
+<input type="button" onClick="numsqrt()" id="backbut" value="SqRt" style="background-color:#a7c77c">
+<input type="button" onClick="writepi('pibut','  PI  ')" id="pibut" value="  PI  " style="background-color:#a7c77c">
+<input type="button" onClick="leftpar()" value="   (   " style="background-color:#a7c77c">
+<input type="button" onClick="rightpar()" value="   )   " style="background-color:#a7c77c">
+</form>
+<form>
+<input type="button" onClick="writenum('7but','7')" id="7but" value="   7   ">
+<input type="button" onClick="writenum('8but','8')" id="8but" value="   8   ">
+<input type="button" onClick="writenum('9but','9')" id="9but" value="   9   ">
+<input type="button" onClick="writesym('divbut','/')" id="divbut" value="   /   " style="background-color:dimgray; color:white;">
+</form>
+<form>
+<input type="button" onClick="writenum('4but','4')" id="4but" value="   4   ">
+<input type="button" onClick="writenum('5but','5')" id="5but" value="   5   ">
+<input type="button" onClick="writenum('6but','6')" id="6but" value="   6   ">
+<input type="button" onClick="writesym('mulbut','*')" id="mulbut" value="   *   " style="background-color:dimgray; color:white;">
+</form>
+<form>
+<input type="button" onClick="writenum('1but','1')" id="1but" value="   1   ">
+<input type="button" onClick="writenum('2but','2')" id="2but" value="   2   ">
+<input type="button" onClick="writenum('3but','3')" id="3but" value="   3   ">
+<input type="button" onClick="writesym('subbut','-')" id="subbut" value="   -   " style="background-color:dimgray; color:white;">
+</form>
+<form>
+<input type="button" onClick="writenum('0but','0')" id="0but" value="          0          ">
+<input type="button" onClick="writesym('dotbut','.')" id="dotbut" value="   .    "> 
+<input type="button" onClick="writesym('addbut','+')" id="addbut" value="  +   " style="background-color:dimgray; color:white;">
+</form>
+<form>  
+<input type="button" onClick="evalu8()" value="                     =                     " style="background-color:palegoldenrod">
+</form>
+<hr width=90%;>
+</div>
+</body>
+</html>
