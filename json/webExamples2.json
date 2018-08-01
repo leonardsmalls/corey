@@ -1,0 +1,59 @@
+    {
+    "items" : [
+    {
+    "img": "imgs/websites/bella.jpg",
+    "alt": "Bella Electric Strings website",
+    "href": "http://bellastrings.com",
+    "back": "Bella Electric Strings website - Toolset: Wordpres, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/opera2.png",
+    "alt": "OPERA website",
+    "href": "http://opera-app.net",
+    "back": "OPERA Oncology Patient Education and Resources App website - Toolset: Zurb Foundation, PHP, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/loveByHome2.jpg",
+    "alt": "love By Hazel website",
+    "href": "http://lovetennisbyhazel.com",
+    "back": "love By Hazel website - Toolset: Shopify, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/trifecta.png",
+    "alt": "Trifecta Band website",
+    "href": "http://trifectaband.com",
+    "back": "Trifecta Band website - Toolset: Wordpress, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/ranisha.png",
+    "alt": "Ranisha Singh Portfolio",
+    "href": "http://ranishasingh.com",
+    "back": "Ranisha Singh Portfolio - Toolset: Wordpress, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/capello.png",
+    "alt": "Cndyi Cappello Photography",
+    "href": "cyndicappellophotography.com",
+    "back": "Cyndi Cappello Photography website - Toolset: Wordpress, HTML/CSS, JS"
+    },
+    {
+    "img": "imgs/websites/loveCatalog.png",
+    "alt": "love By Hazel Wholesale Catalog",
+    "href": "calc",
+    "back": "Digital Flip Book Catalog - Toolset: HTML/CSS, JS"
+    },
+    {
+    "img": "imgs/owl10.jpg",
+    "alt": "Owl Image 1",
+    "href": "calc",
+    "back": "back O' Card"
+    },
+    {
+    "img": "imgs/owl10.jpg",
+    "alt": "Owl Image 1",
+    "href": "calc",
+    "back": "back O' Card"
+    }
+    ]
+    }
+

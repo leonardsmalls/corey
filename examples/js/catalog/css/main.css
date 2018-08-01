@@ -1,0 +1,1013 @@
+  
+  body{
+  text-align: center;
+  overflow: scroll;
+  margin: 0 auto;
+  background: -webkit-linear-gradient(top, #5a5a5a, #7f7f7f);
+  background: -moz-linear-gradient(top, #5a5a5a, #7f7f7f);
+  height: 2850px;
+  width: 100%;
+  }
+  
+  label{
+  		font-family:Arial, Helvetica, sans-serif;	
+  		}
+  
+  #container {
+	    width:900px;
+  		height:1500px;
+  		margin:0 auto;
+		margin-top:80px;
+  		}
+  
+  /*-- Navigation Buttons Above Catalog -----*/
+  
+  #nav {
+	  width:505px;
+	  	  }
+  
+  #nav li {
+  position: absolute;
+  list-style-type:none;
+  font-size:2em;
+  display:inline;
+  margin-bottom:-18px;
+  width:10px;
+  margin-top:-36px;
+  }
+  
+  #nav li a {
+	  
+  }
+  
+  #nav li a.item1 {
+	  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_home.png);
+	  background-position:0px 0px;
+	   padding: 0 0 0 88px;
+  	  display: inline;
+  	  height: 40px;
+  	  margin-right:-396px;
+  	  width:100px;
+	  z-index:-5;
+	  }
+  
+  #nav li a:hover.item1 {
+	  background-position:0px -40px;
+	  }
+  
+  #nav li a.item2 {
+	  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_email.png);
+	  background-position:0px 0px;
+	  padding: 0 0 0 88px;
+  	  display: inline;
+  	  height: 40px;
+  	  margin-right:-579px;
+  	  width:100px;
+	  z-index:-5;
+	  }
+  
+  #nav li a:hover.item2 {
+	  background-position:0px -40px;
+  	  }
+  
+  #nav li a.item3 {
+	  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_order.png);
+	  background-position:0px 0px;
+	  padding: 0 0 0 88px;
+  	  display: inline;
+  	  height: 40px;
+  	  margin-right:-761px;
+  	  width:120px;
+	  z-index:-5;
+	  }
+  
+  #nav li a:hover.item3{
+	  background-position:0px -40px;
+	  }
+ 
+/*-- Zoom -----*/
+  
+  #zoom-viewport{
+  background-color:blue;
+  height:100%;
+  width:100%;
+  }
+
+/*-- Catalog -----*/
+  
+  #flipbook{
+  position:absolute;
+  width:450px;
+  text-align:center;
+  margin:-20px auto;
+  }
+  
+  #flipbook .cover{
+  width:450px;
+  background-color:aqua;
+  text-align:center;
+  margin:0 auto;
+  }
+  
+  #flipbook .turn-page{
+  background-color:#666;
+  }
+  
+  #flipbook .page-wrapper{
+  -webkit-perspective:2000px;
+  -moz-perspective:2000px;
+  -ms-perspective:2000px;
+  -o-perspective:2000px;
+  perspective:2000px;
+  }
+  
+  #flipbook .shadow{
+  box-shadow:0 4px 10px #666;
+  -webkit-box-shadow:0 4px 10px #666;
+  -moz-box-shadow:0 14px 10px #666;
+  }
+  
+  #flipbook .hard{
+  background:#ccc !important;
+  color:#333;
+  -webkit-box-shadow:inset 0 0 5px #666;
+  -moz-box-shadow:inset 0 0 5px #666;
+  -o-box-shadow:inset 0 0 5px #666;
+  -ms-box-shadow:inset 0 0 5px #666;
+  box-shadow:inset 0 0 5px #666;
+  font-weight:bold;
+  }
+  
+  #coverFront{
+      background-color:#666;
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/cover.png);
+  }
+  
+  #coverBack{
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/cover_back.png);
+  }
+  
+  #page1{
+      background-color:#666;
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/pg_1.png);
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #page2{
+      background-color:#666;
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/pg_2_v4.png);
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #page3{
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/pg_3.png);
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #page4{
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/pg_4.png);
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #page5{
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/pg_5.png);
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #page6{
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/pg_6.png);
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #page7{
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/pg_7.png);
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #page8{
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/pg_8.png);
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #page9{
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/pg_9.png);
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #page10{
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/pg_10.png);
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #page11{
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/pg_11.png);
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #page12{
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/pg_12.png);
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+/*-- Catalog Quantity Boxes -----*/  
+  
+  #quantity1{
+  position:absolute;
+  left:115px;
+  bottom:65px;
+  width:250px;
+  border:none;
+  text-align:left;
+  visibility:hidden;
+  }
+  
+  #quantFrom1{
+  background-color:black;
+  color:white;
+  width:35px;
+  border:none;
+  text-align:right;
+  }
+  
+  #quantBut1{ background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_add.png); background-position:0px 0px; position:relative; margin-left:3px; top:1px; border:1px groove black; width:80px; height:22px; }
+  
+  #quantBut1:hover{cursor:pointer; background-position:0px -20px;}
+  
+  #quantity2{
+  position:absolute;
+  right:73px;
+  text-align:left;
+  bottom:62px;
+  width:250px;
+  border:none;
+  visibility:hidden;
+  }
+  
+  #quantFrom2{
+  background-color:black;
+  color:white;
+  width:35px;
+  border:none;
+  text-align:right;
+  }
+  
+  #quantBut2{ background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_add.png); background-position:0px 0px; position:relative; margin-left:3px; top:1px; border:1px groove black; width:80px; height:22px; }
+  
+  #quantBut2:hover{cursor:pointer; background-position:0px -20px;}
+  
+  #quantity3{
+  position:absolute;
+  left:165px;
+  bottom:62px;
+  width:250px;
+  border:none;
+  text-align:left;
+  visibility:hidden;
+  }
+  
+  #quantFrom3{
+  background-color:black;
+  color:white;
+  width:35px;
+  border:none;
+  text-align:right;
+  }
+  
+  #quantBut3{ background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_add.png); background-position:0px 0px; position:relative; margin-left:3px; top:1px; border:1px groove black; width:80px; height:22px; }
+  
+  #quantBut3:hover{cursor:pointer; background-position:0px -20px;}
+  
+  #quantity4{
+  position:absolute;
+  right:73px;
+  text-align:left;
+  bottom:62px;
+  width:250px;
+  border:none;
+  visibility:hidden;
+  }
+  
+  #quantFrom4{
+  background-color:black;
+  color:white;
+  width:35px;
+  border:none;
+  text-align:right;
+  }
+  
+  #quantBut4{ background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_add.png); background-position:0px 0px; position:relative; margin-left:3px; top:1px; border:1px groove black; width:80px; height:22px; }
+  
+  #quantBut4:hover{cursor:pointer; background-position:0px -20px;}
+  
+  #quantity5{
+  position:absolute;
+  left:165px;
+  bottom:62px;
+  width:250px;
+  border:none;
+  text-align:left;
+  visibility:hidden;
+  }
+  
+  #quantFrom5{
+  background-color:black;
+  color:white;
+  width:35px;
+  border:none;
+  text-align:right;
+  }
+  
+  #quantBut5{ background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_add.png); background-position:0px 0px; position:relative; margin-left:3px; top:1px; border:1px groove black; width:80px; height:22px; }
+  
+  #quantBut5:hover{cursor:pointer; background-position:0px -20px;}
+  
+  #quantity6{
+  position:absolute;
+  right:73px;
+  text-align:left;
+  bottom:62px;
+  width:250px;
+  border:none;
+  visibility:hidden; 
+  }
+  
+  #quantFrom6{
+  background-color:black;
+  color:white;
+  width:35px;
+  border:none;
+  text-align:right;
+  }
+  
+  #quantBut6{ background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_add.png); background-position:0px 0px; position:relative; margin-left:3px; top:1px; border:1px groove black; width:80px; height:22px; }
+  
+  #quantBut6:hover{cursor:pointer; background-position:0px -20px;}
+  
+  #quantity7{
+  position:absolute;
+  left:165px;
+  bottom:62px;
+  width:250px;
+  border:none;
+  text-align:left;
+  visibility:hidden;
+  }
+  
+  #quantFrom7{
+  background-color:black;
+  color:white;
+  width:35px;
+  border:none;
+  text-align:right;
+  }
+  
+  #quantBut7{ background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_add.png); background-position:0px 0px; position:relative; margin-left:3px; top:1px; border:1px groove black; width:80px; height:22px; }
+  
+  #quantBut7:hover{cursor:pointer; background-position:0px -20px;}
+  
+  #quantity8{
+  position:absolute;
+  right:32px;
+  text-align:left;
+  bottom:63px;
+  width:250px;
+  border:none;
+  visibility:hidden;
+  }
+  
+  #quantFrom8{
+  background-color:black;
+  color:white;
+  width:35px;
+  border:none;
+  text-align:right;
+  border:2px solid blue;
+  }
+  
+  #quantBut8{ background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_add.png); background-position:0px 0px; position:relative; margin-left:3px; top:1px; border:1px groove black; width:80px; height:22px; }
+  
+  #quantBut8:hover{cursor:pointer; background-position:0px -20px;}
+  
+  #quantity9{
+  position:absolute;
+  left:127px;
+  bottom:62px;
+  width:250px;
+  border:none;
+  text-align:left;
+  visibility:hidden;
+  }
+  
+  #quantFrom9{
+	  background-color:black;
+  color:white;
+  width:35px;
+  border:none;
+  text-align:right;
+  border:2px solid red;
+  }
+  
+  #quantBut9{ background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_add.png); background-position:0px 0px; position:relative; margin-left:3px; top:1px; border:1px groove black; width:80px; height:22px; }
+  
+  #quantBut9:hover{cursor:pointer; background-position:0px -20px;}
+  
+  #quantity10{
+  position:absolute;
+  right:35px;
+  text-align:left;
+  bottom:63px;
+  width:250px;
+  border:none;
+  visibility:hidden;
+  }
+  
+  #quantFrom10{
+	  background-color:black;
+  color:white;
+  width:35px;
+  border:none;
+  text-align:right;
+  border:2px solid green;
+  }
+  
+  #quantBut10{ background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_add.png); background-position:0px 0px; position:relative; margin-left:3px; top:1px; border:1px groove black; width:80px; height:22px; }
+  
+  #quantBut10:hover{cursor:pointer; background-position:0px -20px;}
+
+/*-- -----*/
+  
+  #controls{
+  width:800px;
+  text-align:center;
+  margin:20px auto;
+  font:30px arial;
+  border:2px solid black;
+  }
+  
+  #controls input, #controls label{
+  font:30px arial;
+  }
+  
+  #slider{
+  margin:50px auto;
+  width:450px;
+  }
+  
+  #jumpToTop{
+  position:relative;
+  height:50px;
+  width:50px;
+  margin-bottom:-50px;
+  border:0px solid purple;
+  }
+  
+  #jumpToOrder{
+  position:relative;
+  height:50px;
+  width:50px;
+  top:120px;
+  border:0px solid purple;
+  }
+  
+  #navOrderForm { margin: 80px auto 0px; height:40px;}
+  
+  #navOrderForm li {
+  list-style-type:none;
+  font-size:2em;
+  display:inline;
+  }
+  
+  #navOrderForm li a {
+  background-repeat:no-repeat;
+  padding: 0 0 0 88px;
+  display: inline;
+  height: 40px;
+  }
+  
+  #navOrderForm li a.item4 {background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_catalog.png); background-position:0px 0px; float:right; margin-top:5px; margin-bottom:-4px; margin-left:2px; margin-right:3px;}
+  
+  #navOrderForm li a:hover.item4 {background-position:0px -40px;}
+  
+  #navOrderForm li a.item5 {background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_total.png); background-position:0px 0px; float:right; margin-top:5px;  margin-bottom:-4px; margin-left:3px; margin-right:2px;}
+  
+  #navOrderForm li a:hover.item5 {background-position:0px -40px;}
+  
+  #quantityGrandTotal{
+  position:absolute;
+  right:35px;
+  text-align:left;
+  bottom:65px;
+  width:250px;
+  }
+  
+  #grandTotalBut{ position:relative; right:80px; background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_update_order.png); background-position:0px 0px; margin-left:3px; width:88px; height:40px; border:none;}
+  
+  #grandTotalBut:hover{ cursor:pointer; background-position:0px -40px; }
+  
+  #dollarSign
+ 	{
+      position:absolute;
+      font-size:42px;
+      top:-5px;
+      right:200px;
+  width:35px;
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #totalCost{
+  position:absolute;
+  right:0px;
+  height:40px;
+  background-color:transparent;
+  border:none;
+  text-align:left;
+  font-size:40px;
+  top:0px;
+  width:200px;
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #totalPieces{
+      position:absolute;
+      top:-38px;
+      text-align:left;
+      right:37px;
+	  font-size:18px;
+  background-color:transparent;
+  width:35px;
+  border:none;
+  }
+  
+  #totalPiecesText{
+      position:absolute;
+  top:-37px;
+  font-size:18px;
+  right:80px;
+  text-align:right;
+  width:150px;
+  font-family:Arial, Helvetica, sans-serif;
+  
+  }
+  
+    #subTotalReminder{
+  visibility:hidden;
+  position:relative;
+  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/arrow.png);
+  top:75px;
+  right:-385px;
+  height:40px;
+  width:120px;
+  z-index:1;
+   }
+  
+  @keyframes arrowReminder
+  {
+  0%{opacity: 1; right: -360px}
+  50%{opacity: 0; right: -300px;}
+  100%{opacity: 1; right: -359px;}	
+  }
+    
+  @-moz-keyframes arrowReminder
+  {
+  0%{opacity: 1; right: -360px;}
+  50%{opacity: 0; right: -300px;}
+  100%{opacity: 1; right: -359px;}
+  }
+  
+  @-webkit-keyframes arrowReminder
+  {
+  0%{opacity: 1; right: -360px;}
+  50%{opacity: 0; right: -300px;}
+  100%{opacity: 1; right: -359px;}
+  }
+  
+  #shippingRate{
+	  visibility:hidden;
+  position:absolute;
+  top:47px;
+  right:0px;
+  text-align:right;
+  width:250px;
+  font-size:13px;
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #totalBlock{
+  position:relative;
+  right:44px;
+  top:35px;
+  width:450px;
+  float:right;
+  }
+  
+  #formHR{
+  position:relative;
+  top:170px;
+  margin: 0 auto;
+  left:0px;
+  width:900px;
+  height:10px;
+  background-color:black;
+  }
+  
+  /* --- Order Form --- */
+  
+  .orderFormContainer {
+      position:relative;
+      margin: 0 auto;
+      width:900px;
+      text-align:left;
+      top:300px;
+      height:800px;
+	  padding-left:100px;
+  }
+  
+  	.orderFormContainer:after{
+  content: "";
+  clear: both;
+  display:table;
+	}
+  
+  :invalid { 
+    border-color: transparent;
+    -webkit-box-shadow: 0 0 0px rgba(255, 255, 255, 0);
+    -moz-box-shadow: 0 0 0px rgba(255, 255, 255, 0);
+    -o-box-shadow: 0 0 0px rgba(255, 215, 0, 0);
+    -ms-box-shadow: 0 0 0px rgba(255, 255, 255, 0);
+    box-shadow:0 0 0px rgba(255, 255, 255, 0);
+  }
+  
+  :required {
+    border-color: gold;
+     -webkit-box-shadow: 0 0 5px rgba(255, 215, 0, .5);
+    -moz-box-shadow: 0 0 5px rgba(255, 215, 0, .5);
+    -o-box-shadow: 0 0 5px rgba(255, 215, 0, .5);
+    -ms-box-shadow: 0 0 5px rgba(255, 215, 0, .5);
+    box-shadow:0 0 5px rgba(255, 215, 0, .5);
+  }
+  
+  .orderFormInput {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border:none;
+    background-color:black;
+    color:white;
+    font-size:20px;
+    width:350px;
+    min-height:30px;
+    display:block;
+    margin-bottom:15px;
+    outline: none;
+    text-align:left;
+  
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    -o-border-radius:0px;
+    -ms-border-radius:0px;
+    border-radius:0px;
+  }
+  
+  .orderFormInput[type=submit] {
+    background-color:black;
+    padding:10px;
+  }
+  
+  #orderSubmitBut{ position:relative; margin-top:5px; background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_submit.png); background-position:0px 0px; margin-left:465px; right:3px; width:88px; height:40px; border:none;}
+  
+  #orderSubmitBut:hover{ cursor:pointer; background-position:0px -40px; }
+  
+  #columnCITY{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border:none;
+    background-color:black;
+    color:white;
+    font-size:20px;
+    min-height:30px;
+    display:block;
+    margin-bottom:0px;
+    margin-top:0px;
+    outline: none;
+    text-align:left;
+	box-sizing:border-box;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box; /* Safari */
+width:220px;
+  }
+  
+  #columnSTATE{
+	  position:relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border:none;
+    background-color:black;
+    color:white;
+    font-size:20px;
+    min-height:30px;
+    display:inline;
+    outline: none;
+    text-align:left;
+	box-sizing:border-box;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box; /* Safari */
+width:40px;
+height:30px;
+float:left;
+  }
+  
+  #columnZIP{
+	  position:relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border:none;
+    background-color:black;
+    color:white;
+    font-size:20px;
+    min-height:30px;
+    display:block;
+    outline: none;
+	margin-left:10px;
+    text-align:left;
+	box-sizing:border-box;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box; /* Safari */
+width:70px;
+height:30px;
+float:left;
+  }
+  
+  #columnCOMMENTS{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height:182px;
+    border:none;
+    background-color:black;
+    color:white;
+    font-size:20px;
+    min-height:30px;
+    display:block;
+    margin-bottom:22px;
+    margin-top:-221px;
+	margin-left:-100px;
+    outline: none;
+    text-align:left;
+	box-sizing:border-box;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box; /* Safari */
+width:350px;;
+  }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ #columnCOMMENTS { margin-left:150px; }
+ #labelBuyerComments{ margin-top:-160px; }
+ #stateZipL{ position:absolute; margin-left:-100px; margin-top:-30px; }
+ #leftSection{ position:absolute; }
+ #paymentOptions{ position:absolute; top:450px; height:1px; }
+ #orderSubmitBut{  margin-top:235px; }
+ #nav li a.item1{ -webkit-margin-left:356px; }
+}
+
+@-moz-document url-prefix() {
+	#stateZipL{ position:absolute; margin-left:2px; margin-top:-30px; }
+	#orderSubmitBut{ margin-top:120px; }
+}
+
+#stateZipL{
+	height:80px;
+	width:200px;
+	left:330px;
+	display:inline; -moz-column-width:100%; -webkit-column-width:100%;}
+  
+  .columns{
+      margin:0px auto;
+      -webkit-column-count: 2;
+      -webkit-column-rule: 0px;
+      -moz-column-count: 2;
+      -moz-column-rule: 0px;
+    }
+   
+  .column{
+      margin:0px auto;
+      -webkit-column-count: 1;
+      -webkit-column-rule: 0px;
+      -moz-column-count: 1;
+      -moz-column-rule: 0px;
+	  -webkit-margin-top:-50px;
+    }
+	
+	.columnR{
+      margin-right:90px;
+      -webkit-column-count: 1;
+      -webkit-column-rule: 0px;
+      -moz-column-count: 1;
+      -moz-column-rule: 0px;
+	  float:right;
+    }
+	
+	.columnL{
+     box-sizing:border-box;
+	  -moz-box-sizing:border-box; /* Firefox */
+	  -webkit-box-sizing:border-box; /* Safari */
+	  width:100%;
+	  float:left;
+      margin:25px auto;
+      -webkit-column-count: 1;
+      -webkit-column-rule: 0px;
+      -moz-column-count: 1;
+      -moz-column-rule: 0px;
+    }
+
+  .columnCheckBox{
+      margin:10px auto;
+      -webkit-column-count: 1;
+      -webkit-column-rule: 0px;
+      -moz-column-count: 1;
+      -moz-column-rule: 0px;
+    }
+   
+   #paymentOptions{
+      position:absolute;
+      margin-top:-70px;
+      margin-left:0px;
+	  height:135px;
+      width:350px;
+      border:1px solid black;
+      text-align:right;
+      }
+  
+  #CheckLabel{
+      position:absolute;
+      margin-top:28px;
+      margin-left:174px;
+	  margin-bottom:10px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+  
+  #CreditCardLabel{
+      position:absolute;
+      margin-top: 20px;
+      margin-left:35px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/creditCard_images.jpg);
+	  background-position: -12px -12px;
+	  height:37px;
+	  width:276px;
+      }
+      
+	#checkBox{
+	margin-top:27px;
+	height:30px;
+	}
+
+	#creditCardBox{
+	margin-top:30px;
+	height:30px;
+	}  
+	  
+  .newCheckbox {
+      display: none;
+	  position:absolute;
+  }
+  
+  .newCheckbox + label {
+      background-color: black;
+      border: 1px solid black;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+      padding: 9px;
+      border-radius: 1px;
+      display: inline-block;
+      position: relative;
+      margin-right:10px;
+  }
+  
+  .newCheckbox + label:active, .newCheckbox:checked + label:active {
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .newCheckbox:checked + label {
+      background-color: black;
+      border: 1px groove goldenrod;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+      color: white;
+  }
+  
+  .newCheckbox:checked + label:after {
+      content: '\2713';
+      position: absolute;
+      top: 0px;
+      left: 3px;
+      color: gold;
+  }
+  
+  .hiddenRecipients{
+  visibility:hidden;
+    }
+  
+  .hiddenSummary{
+  visibility:hidden;
+  }
+    
+  #orderSummary{
+      visibility:hidden;
+  height:100px;
+  width:500px;
+  border:2px solid blue;  
+    }
+	
+	#stateZipL{
+	height:80px;
+	width:200px;
+	left:330px;
+	display:inline;
+	-moz-column-width:100%;
+	-webkit-column-width:100%;
+	}
+	
+	#labelSTATE{
+	float:left;
+	margin-top:-19px;
+	margin-left:-3px;
+	}
+	
+	#labelZIP{	
+	float:left;
+	margin-top:-20px;
+	margin-left:50px;
+	}
+	
+	  #labelBuyerComments{
+		  position:absolute;
+	  text-align:left;
+	  top:125px;
+	  right:285px;
+	  margin-bottom:10px;
+  }
+
+table#orderTable{
+width:900px;
+height:900px;
+background-image: url(http://coreysimpson.com/examples/js/hazelFlip/images/jewelry_ckout_XZ.png);
+background-position: 2px 2px;
+background-repeat:no-repeat;
+}
+
+.blackOut{
+	padding-top:70px;
+width:222px;
+height:134px;	
+background-color:black;
+opacity:0.5;
+}
+
+.blackOut1st{
+	padding-top:70px;
+width:222px;
+padding-right:2px;
+height:134px;	
+background-color:black;
+opacity:0.5;
+}
+
+.buttonRow{
+height:43px;	
+}
+
+.addCartButton{
+	background-image:url(http://coreysimpson.com/examples/js/hazelFlip/images/button_cart.png);
+	width:170px;
+	height: 30px;
+	margin-left:25px;
+	background-position:0px 0px;
+	border:none;
+	margin-bottom:10px;
+	margin-top:5px;
+}
+
+.addCartButton:hover{
+cursor:pointer;
+background-position:0px -30px;
+	}
+
+.inputAttr{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	height:15px;
+	width:35px;
+	border:none;
+	background-color:black;
+	color:white;
+	float:right;
+	margin-right:50px;
+	}
+	
+	#invisibleFields{
+	display:none;	
+	}
+
+#hiddenSubmitBut{
+	position:relative;
+top:-750px;	
+border:2px solid black;
+}
+
+#returnInfo{
+  width:900px;
+  height:69px;
+  margin-top:85px;
+  background-image: url(http://coreysimpson.com/examples/js/hazelFlip/images/returnInfo.png);
+}

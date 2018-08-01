@@ -1,0 +1,41 @@
+    {
+    "items" : [
+    {
+    "img": "imgs/owl10.jpg",
+    "alt" : "Owl Image 1",
+    "href" : "calculator33333.html",
+    "back" : "first web site"
+    },
+    {
+    "img": "imgs/owl10.jpg",
+    "alt" : "Owl Image 2",
+    "href" : "examples/jsExamples/calc",
+    "back" : "Simple JavaScript Calculator developed using built-in JS Objects & Methods. With a dab of CSS to add mild atractiveness."
+    },
+    {
+    "img": "imgs/owl10.jpg",
+    "alt" : "Owl Image 3",
+    "href" : "examples/jsExamples/calc",
+    "back" : "Simple JavaScript Calculator developed using built-in JS Objects & Methods. With a dab of CSS to add mild atractiveness."
+    },
+    {
+    "img": "imgs/owl10.jpg",
+    "alt" : "Owl Image 4",
+    "href" : "examples/jsExamples/calc",
+    "back" : "Simple JavaScript Calculator developed using built-in JS Objects & Methods. With a dab of CSS to add mild atractiveness."
+    },
+    {
+    "img": "imgs/owl10.jpg",
+    "alt" : "Owl Image 5",
+    "href" : "calculator.html",
+    "back" : "second web site"
+    },
+    {
+    "img": "imgs/owl10.jpg",
+    "alt" : "Owl Image 6",
+    "href" : "calculator.html",
+    "back" : "second web site"
+    }
+    ]
+    }
+

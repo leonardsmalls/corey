@@ -1,0 +1,53 @@
+    {
+    "items" : [
+    {
+    "img": "imgs/websites/jgSite.png",
+    "alt": "Jane Goodrich Photography",
+    "href": "http://coreysimpson.com/jgSite",
+    "back": "Jane Goodrich Portfolio Site - Bootstrap, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/operaWeb.png",
+    "alt": "OPERA website",
+    "href": "http://opera-app.net",
+    "back": "OPERA Oncology Patient Education and Resources App website - Zurb Foundation, PHP, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/aHappyWeb.png",
+    "alt": "A Happy Little Design Studio website",
+    "href": "http://happylittledesignstudio.com",
+    "back": "A Happy Little Design Studio website - Wordpres, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/loveByHazel.png",
+    "alt": "love By Hazel website",
+    "href": "http://lovetennisbyhazel.com",
+    "back": "love By Hazel website - Shopify, HTML/CSS, JS, jQuery"
+    },
+     {
+    "img": "imgs/websites/bellaWeb.png",
+    "alt": "Bella Electric Strings website",
+    "href": "http://bellastrings.com",
+    "back": "Bella Electric Strings website - Wordpres, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/trifectaWeb.png",
+    "alt": "Trifecta Band website",
+    "href": "http://trifectaband.com",
+    "back": "Trifecta Band website - Wordpress, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/ranishaWeb.png",
+    "alt": "Ranisha Singh Portfolio",
+    "href": "http://ranishasingh.com",
+    "back": "Ranisha Singh Portfolio - Wordpress, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/cyndiCapWeb.png",
+    "alt": "Cyndi Cappello Photography",
+    "href": "http://cyndicappellophotography.com",
+    "back": "Cyndi Cappello Photography website - Wordpress, HTML/CSS, JS"
+    }
+    ]
+    }
+

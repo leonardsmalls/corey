@@ -1,0 +1,506 @@
+<!DOCTYPE HTML>
+  <html>
+  	<head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  	<link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="css/only-IE.css" />
+	<![endif]-->
+  	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+  	<script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+  	<script type="text/javascript" src="js/jquery-ui.js"></script>
+  	<script type="text/javascript" src="js/turn.min.js"></script>
+    <script type="text/javascript" src="js/loveCatalog.min.js"></script>
+    <script type="text/javascript" src="js/css_browser_selector.js" ></script>
+  	<title>Love Tennis By Hazel - Wholesale Catalog</title> 
+    
+    <style>
+	
+	 .[safari] #nav li a.item1{ margin-left:750px; border:2px solid blue;}
+   </style>
+
+  
+  </head>
+  
+  <body>
+  <div id="container">    
+          <ul id="nav">
+          <li><a class="item1" href="http://coreysimpson.com/examples/js/hazelFlip" title="Go Home" ></a></li>
+          <li><a class="item2" href="http://coreysimpson.com/examples/js/hazelFlip" title="Send Me An Email" ></a></li>
+          <li><a class="item3" href="#jumpToOrder" title="Place Your Order" ></a></li>
+       	  </ul>
+      
+  <div id="flipbook">
+      <div id="coverFront"></div>
+      	<div id="page1">
+      	</div>
+      
+      	<div id="page2">
+      	</div>
+      
+      	<div id="page3">
+      	</div>
+      	
+        <div id="page4">
+      	</div>
+      	
+        <div id="page5">
+      	</div>
+      
+      	<div id="page6">
+      	</div>
+      
+      	<div id="page7">
+      	</div>
+      
+      	<div id="page8">
+      	</div>
+      
+      	<div id="page9">
+      	</div>
+      
+      	<div id="page10">
+      	</div>
+       
+       	<div id="page11">
+      	</div>
+       
+       	<div id="page12">
+      	</div>
+      
+      <div id="coverBack"></div>
+  </div>
+
+  <div id="jumpToOrder"></div>
+
+<!-- Order Form //-->
+  
+      <ul id="navOrderForm">
+          <li><a class="item4" href="#container" title="Back Up To Catalog!"></a></li>
+          <li><a class="item5" href="#formHR" title="Provide Ypur Information" onclick="grandTotal()"></a></li>
+      </ul>
+      
+      <table name="orderTable" id="orderTable" border="0" cellspacing="3" cellpadding="0">
+		<form name="orderFormRow1">
+			<tr colspan = "4">
+				<td class="blackOut1st" id="black1"></td>
+				<td class="blackOut" id="black2"></td>
+				<td class="blackOut" id="black3"></td>
+				<td class="blackOut" id="black4"></td>
+			</tr>
+			<tr id="inputRow" colspan = "4">
+				<td><input type="text" class="inputAttr" name="total1a" id="total1a" min="1" max="99999" value="0"></td>
+				<td><input type="text" class="inputAttr" name="total2a" id="total2a" min="1" max="99999" value="0"></td>
+				<td style="visibility:hidden"><input type="text" class="inputAttr" name="total3a" id="total3a" min="1" max="99999" value="0"></td>
+				<td style="visibility:hidden"><input type="text" class="inputAttr" name="total4a" id="total4a" min="1" max="99999" value="0"></td>
+			</tr>
+			<tr id="inputRow" colspan = "4">
+				<td><input type="text" class="inputAttr" name="total1b" id="total1b" min="1" max="99999" value="0"></td>
+				<td><input type="text" class="inputAttr" name="total2b" id="total2b" min="1" max="99999" value="0"></td>
+				<td><input type="text" class="inputAttr" name="total3b" id="total3b" min="1" max="99999" value="0"></td>
+				<td><input type="text" class="inputAttr" name="total4b" id="total4b" min="1" max="99999" value="0"></td>
+			</tr>
+			<tr colspan = "4">
+				<td><div class="addCartButton" id="addCart1" onClick="selectedItem1(), clickTotal()"></div></td>
+				<td><div class="addCartButton" id="addCart2" onclick="selectedItem2(), clickTotal()"></div></td>
+				<td><div class="addCartButton" id="addCart3" onclick="selectedItem3(), clickTotal()"></div></td>
+				<td><div class="addCartButton" id="addCart4" onclick="selectedItem4(), clickTotal()"></div></td>
+			</tr>
+		</form>
+		<form name="orderFormRow2">
+			<tr colspan = "4">
+				<td class="blackOut1st" id="black5"></td>
+				<td class="blackOut" id="black6"></td>
+				<td class="blackOut" id="black7"></td>
+				<td class="blackOut" id="black8"></td>
+			</tr>
+			<tr id="inputRow" colspan = "4">
+				<td><input type="text" class="inputAttr" name="total5a" id="total5a" min="1" max="99999" value="0"></td>
+				<td><input type="text" class="inputAttr" name="total6a" id="total6a" min="1" max="99999" value="0"></td>
+				<td><input type="text" class="inputAttr" name="total7a" id="total7a" min="1" max="99999" value="0"></td>
+				<td><input type="text" class="inputAttr" name="total8a" id="total8a" min="1" max="99999" value="0"></td>
+			</tr>
+			<tr id="inputRow" colspan = "4">
+				<td><input type="text" class="inputAttr" name="total5b" id="total5b" min="1" max="99999" value="0"></td>
+				<td><input type="text" class="inputAttr" name="total6b" id="total6b" min="1" max="99999" value="0"></td>
+				<td><input type="text" class="inputAttr" name="total7b" id="total7b" min="1" max="99999" value="0"></td>
+				<td><input type="text" class="inputAttr" name="total8b" id="total8b" min="1" max="99999" value="0"></td>
+			</tr>
+			<tr colspan = "4">
+				<td><div class="addCartButton" id="addCart5" onclick="selectedItem5(), clickTotal()"></div></td>
+				<td><div class="addCartButton" id="addCart6" onclick="selectedItem6(), clickTotal()"></div></td>
+				<td><div class="addCartButton" id="addCart7" onclick="selectedItem7(), clickTotal()"></div></td>
+				<td><div class="addCartButton" id="addCart8" onclick="selectedItem8(), clickTotal()"></div></td>
+			</tr>
+		</form>
+		<form name="orderFormRow3">
+			<tr colspan = "4">
+				<td class="blackOut1st" id="black9"></td>
+				<td class="blackOut" id="black10"></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr id="inputRow" colspan = "4">
+				<td><input type="text" class="inputAttr" name="total9a" id="total9a" min="1" max="99999" value="0"></td>
+				<td><input type="text" class="inputAttr" name="total10a" id="total10a" min="1" max="99999" value="0"></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr id="inputRow" colspan = "4">
+				<td><input type="text" class="inputAttr" name="total9b" id="total9b" min="1" max="99999" value="0"></td>
+				<td><input type="text" class="inputAttr" name="total10b" id="total10b" min="1" max="99999" value="0"></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class="buttonRow" colspan = "4">
+				<td><div class="addCartButton" id="addCart9" onclick="selectedItem9(), clickTotal()"></div></td>
+				<td><div class="addCartButton" id="addCart10" onclick="selectedItem10(), clickTotal()"></div></td>
+				<td></td>
+				<td></td>
+			</tr>
+</form>
+</table>
+ 
+<!-- Final Price Block //--> 
+          
+           <div id="subTotalReminder"></div>
+            <div id="totalBlock">
+          <form name="quantityGrandTotal">
+              <input type="button" name="button" value="" id="grandTotalBut" onClick="hideHintArrow(), checkBlank1(), checkBlank2(), checkBlank3(), checkBlank4(), checkBlank5(), checkBlank6(), checkBlank7(), checkBlank8(), checkBlank9(), checkBlank10(), grandTotal()">
+          </form>
+          <form name="totalTotal">
+           <div id="totalPiecesText">TOTAL PIECES =</div><input type="text" id="totalPieces" name="totalPieces" min="1" max="99999" onchange="this.value=cknum(this.value)" value="0">
+          <div id="dollarSign">$</div><input type="text" id="totalCost" name="totalCost" min="1" max="99999" value="0">
+      <div id="shippingRate">(INCLUDES $20.00 FLAT RATE S/H)</div>
+      </form>
+      </div>
+  </div>
+ 
+ 
+ <hr id="formHR"></hr>
+ 
+<!-- Order Form Information //-->
+  
+  <div class="orderFormContainer">
+
+
+    <form name="orderFormSubmitForm">
+
+      <div class="columns">
+      <label id="firstNameLabel">FIRST NAME*</label>
+      <input type="text" class="orderFormInput" id="firstName" name="First_Name" tabindex="1" required>
+
+      <label id="emailLabel">EMAIL ADDRESS*</label>
+      <input type="email" class="orderFormInput" id="emailAddr" name="email" tabindex="8" required>
+      </div>
+
+      <div class="columns">
+      <label id="lastNameLabel">LAST NAME*</label>
+      <input type="text" class="orderFormInput" id="lastName" name="Last_Name" tabindex="2" required>
+      
+<label>CONFIRM EMAIL ADDRESS*</label>
+      <input type="email" class="orderFormInput" id="emailAddrRepeat" name="Email_Address_Confirm" oninput="check(this)" tabindex="9" required>
+      </div>
+      
+	  <div class="column">
+      <label>ADDRESS*</label>
+      <input type="text" class="orderFormInput" id="street" name="address1" tabindex="3" required>
+      </div>
+
+      <div class="column">
+      <label>CITY*</label>
+      <input type="text" id="columnCITY" name="city" min="1" max="" tabindex="4" required>
+      
+       <div id="stateZipL"> 
+      <label id="labelSTATE">STATE*</label>
+      <input type="dropdown" id="columnSTATE" list="states" name="state" value="" min="1" max="" tabindex="5" required>
+      <datalist id="states">
+      <option value="AL">Alabama</option>
+      <option value="AK">Alaska</option>
+      <option value="AZ">Arizona</option>
+      <option value="AR">Arkansas</option>
+      <option value="CA">California</option>
+      <option value="CO">Colorado</option>
+      <option value="CT">Connecticut</option>
+      <option value="DE">Delaware</option>
+      <option value="DC">District of Columbia</option>
+      <option value="FL">Florida</option>
+      <option value="GA">Georgia</option>
+      <option value="HI">Hawaii</option>
+      <option value="ID">Idaho</option>
+      <option value="IL">Illinois</option>
+      <option value="IN">Indiana</option>
+      <option value="IA">Iowa</option>
+      <option value="KS">Kansas</option>
+      <option value="KY">Kentucky</option>
+      <option value="LA">Louisiana</option>
+      <option value="ME">Maine</option>
+      <option value="MD">Maryland</option>
+      <option value="MA">Massachusetts</option>
+      <option value="MI">Michigan</option>
+      <option value="MN">Minnesota</option>
+      <option value="MS">Mississippi</option>
+      <option value="MO">Missouri</option>
+      <option value="MT">Montana</option>
+      <option value="NE">Nebraska</option>
+      <option value="NV">Nevada</option>
+      <option value="NH">New Hampshire</option>
+      <option value="NJ">New Jersey</option>
+      <option value="NM">New Mexico</option>
+      <option value="NY">New York</option>
+      <option value="NC">North Carolina</option>
+      <option value="ND">North Dakota</option>
+      <option value="OH">Ohio</option>
+      <option value="OK">Oklahoma</option>
+      <option value="OR">Oregon</option>
+      <option value="PA">Pennsylvania</option>
+      <option value="RI">Rhode Island</option>
+      <option value="SC">South Carolina</option>
+      <option value="SD">South Dakota</option>
+      <option value="TN">Tennessee</option>
+      <option value="TX">Texas</option>
+      <option value="UT">Utah</option>
+      <option value="VT">Vermont</option>
+      <option value="VA">Virginia</option>
+      <option value="WA">Washington</option>
+      <option value="WV">West Virginia</option>
+      <option value="WI">Wisconsin</option>
+      <option value="WY">Wyoming</option>
+      </datalist>
+      <label id="labelZIP">ZIP*</label>
+      <input type="text" id="columnZIP" name="zip" value="" min="1" max="" tabindex="6" required>
+      </div>
+    </div>
+      
+	<div class="columnL">   	 
+      <label>PHONE NUMBER*</label>
+      <input type="text" class="orderFormInput" id="phone" name="night_phone_a" min="1" max="30" tabindex="7" required>
+      
+    </div>
+ 
+    <div class="columnR">
+    <label id="labelBuyerComments">BUYER COMMENTS</label>
+      <textarea type="text" class="orderFormInput" id="columnCOMMENTS" name="Buyer_Comments" tabindex="10"></textarea>
+      </div>
+
+      <div id="orderSubmitBut" onclick="finalBlankCheck(), nameInfoCC(), blankForm()" > </div>
+   
+      
+      <div class="hiddenRecipients">
+      <input type="text" id="recipients" name="recipients" value="corey@ahappylittledesignstudio.com" />
+      <input type="hidden" name="subject" value="Love By hazel Wholesale Catalog Order" />
+      </div>
+      
+      <div id="paymentOptions">
+      <div id="CheckLabel">PAY WITH CHECK</div>
+      <div id="checkBox">
+      <input type="checkbox" class="newCheckbox" id="Check" name="_Via_Check"><label for="Check"></label></div>
+      <div id="CreditCardLabel"></div>
+      <div id="creditCardBox">
+      <input type="checkbox" class="newCheckbox" id="CreditCard" name="_Via_Credit_Card"><label for="CreditCard"></label>
+      </div></div>
+
+      <div id="returnInfo"></div>
+ 
+ <!-- Invisible Input Fields //-->
+    
+      <div class="hiddenSummary">
+      <input type="text" id="orderSummaryPrice" name="Order_Summary_Price" value="">
+      <input type="text" id="orderSummaryShipping" name="Order_Summary_Shipping" value="">
+      <input type="text" id="orderSummaryTotal" name="Order_Summary_Total" value="">
+      <input type="text" id="orderMethod" name="Method_Of_" value="Check">
+      <input type="text" id="orderSummaryPieces" name="Order_Summary_Pieces" value="">
+      <input type="text" id="orderSummaryItem1a" name="Order_Quantity_Item1a" value="">
+      <input type="text" id="orderSummaryItem1b" name="Order_Quantity_Item1b" value="">
+      <input type="text" id="orderSummaryItem2a" name="Order_Quantity_Item2a" value="">
+      <input type="text" id="orderSummaryItem2b" name="Order_Quantity_Item2b" value="">
+      <input type="text" id="orderSummaryItem3a" name="Order_Quantity_Item3a" value="">
+      <input type="text" id="orderSummaryItem3b" name="Order_Quantity_Item3b" value="">
+      <input type="text" id="orderSummaryItem4a" name="Order_Quantity_Item4a" value="">
+      <input type="text" id="orderSummaryItem4b" name="Order_Quantity_Item4b" value="">
+      <input type="text" id="orderSummaryItem5a" name="Order_Quantity_Item5a" value="">
+      <input type="text" id="orderSummaryItem5b" name="Order_Quantity_Item5b" value="">
+      <input type="text" id="orderSummaryItem6a" name="Order_Quantity_Item6a" value="">
+      <input type="text" id="orderSummaryItem6b" name="Order_Quantity_Item6b" value="">
+      <input type="text" id="orderSummaryItem7a" name="Order_Quantity_Item7a" value="">
+      <input type="text" id="orderSummaryItem7b" name="Order_Quantity_Item7b" value="">
+      <input type="text" id="orderSummaryItem8a" name="Order_Quantity_Item8a" value="">
+      <input type="text" id="orderSummaryItem8b" name="Order_Quantity_Item8b" value="">
+      <input type="text" id="orderSummaryItem9a" name="Order_Quantity_Item9a" value="">
+      <input type="text" id="orderSummaryItem9b" name="Order_Quantity_Item9b" value="">
+      <input type="text" id="orderSummaryItem10a" name="Order_Quantity_Item10a" value="">
+      <input type="text" id="orderSummaryItem10b" name="Order_Quantity_Item10b" value="">
+      <input type="submit" id="hiddenSubmitBut" value="" />
+      </div>
+     
+ 
+ <!-- Invisible Input Fields //-->
+  <div id="invisibleFields">  
+      <div class="hiddenSummary">
+      <input type="text" id="orderSummaryPrice" name="Order_Summary_Price" value="">
+      <input type="text" id="orderSummaryShipping" name="Order_Summary_Shipping" value="">
+      <input type="text" id="orderSummaryTotal" name="Order_Summary_Total" value="">
+      <input type="text" id="orderMethod" name="Method_Of_" value="Check">
+      <input type="text" id="orderSummaryPieces" name="Order_Summary_Pieces" value="">
+      <input type="text" id="orderSummaryItem1a" name="Order_Quantity_Item1a" value="">
+      <input type="text" id="orderSummaryItem1b" name="Order_Quantity_Item1b" value="">
+      <input type="text" id="orderSummaryItem2a" name="Order_Quantity_Item2a" value="">
+      <input type="text" id="orderSummaryItem2b" name="Order_Quantity_Item2b" value="">
+      <input type="text" id="orderSummaryItem3a" name="Order_Quantity_Item3a" value="">
+      <input type="text" id="orderSummaryItem3b" name="Order_Quantity_Item3b" value="">
+      <input type="text" id="orderSummaryItem4a" name="Order_Quantity_Item4a" value="">
+      <input type="text" id="orderSummaryItem4b" name="Order_Quantity_Item4b" value="">
+      <input type="text" id="orderSummaryItem5a" name="Order_Quantity_Item5a" value="">
+      <input type="text" id="orderSummaryItem5b" name="Order_Quantity_Item5b" value="">
+      <input type="text" id="orderSummaryItem6a" name="Order_Quantity_Item6a" value="">
+      <input type="text" id="orderSummaryItem6b" name="Order_Quantity_Item6b" value="">
+      <input type="text" id="orderSummaryItem7a" name="Order_Quantity_Item7a" value="">
+      <input type="text" id="orderSummaryItem7b" name="Order_Quantity_Item7b" value="">
+      <input type="text" id="orderSummaryItem8a" name="Order_Quantity_Item8a" value="">
+      <input type="text" id="orderSummaryItem8b" name="Order_Quantity_Item8b" value="">
+      <input type="text" id="orderSummaryItem9a" name="Order_Quantity_Item9a" value="">
+      <input type="text" id="orderSummaryItem9b" name="Order_Quantity_Item9b" value="">
+      <input type="text" id="orderSummaryItem10a" name="Order_Quantity_Item10a" value="">
+      <input type="text" id="orderSummaryItem10b" name="Order_Quantity_Item10b" value="">
+      <input type="submit" id="hiddenSubmitBut" value="" />
+      </div></div>
+  </form>
+
+  <form name="creditCardEmail" action="http://www.coreysimpson.com/examples/js/hazelFlip/3M@!L/catalogOrderSuccessCC.php" method="get" >
+      <div class="hiddenSummary">
+      
+      <input type="hidden" name="amount" id="payPalTotal" value="">
+      <input type="hidden" name="shipping" value="20.00">
+      <input type="text" id="first_Name" name="First_Name" value="">
+      <input type="text" id="last_Name" name="Last_Name" value="">
+      <input type="text" id="street_Addr" name="Street_Addr" value="">
+      <input type="text" id="column_CITY" name="city" value="" min="1" max="" >
+      <input type="text" id="column_STATE" list="states" name="state" value="" min="1" max="" >
+      <input type="text" id="column_ZIP" name="zip" value="" min="1" max="" >
+      <input type="tel" id="_phone" name="night_phone_a" value="" min="1" max="30" >
+      <input type="email" id="email_Addr" name="email">
+      <input type="email" id="email_AddrRepeat" name="Email_Address_Confirm" oninput="check(this)">
+      <textarea type="text" id="column_COMMENTS" name="Buyer_Comments"></textarea>
+      <input type="text" id="orderSummary_Price" name="Order_Summary_Price" value=""> 
+      <input type="text" id="orderSummary_Shipping" name="Order_Summary_Shipping" value="">
+      <input type="text" id="orderSummary_Total" name="Order_Summary_Total" value="">
+      <input type="text" id="orderSummary_TotalPP" name="Order_Summary_TotalPP" value="">
+      <input type="text" id="order_Method" name="Method_Of_" value="Credit Card">
+      <input type="text" id="orderSummary_Pieces" name="Order_Summary_Pieces" value="">
+      <input type="text" id="orderSummary_Item1a" name="Order_Quantity_Item1a" value="">
+      <input type="text" id="orderSummary_Item1b" name="Order_Quantity_Item1b" value="">
+      <input type="text" id="orderSummary_Item2a" name="Order_Quantity_Item2a" value="">
+      <input type="text" id="orderSummary_Item2b" name="Order_Quantity_Item2b" value="">
+      <input type="text" id="orderSummary_Item3a" name="Order_Quantity_Item3a" value="">
+      <input type="text" id="orderSummary_Item3b" name="Order_Quantity_Item3b" value="">
+      <input type="text" id="orderSummary_Item4a" name="Order_Quantity_Item4a" value="">
+      <input type="text" id="orderSummary_Item4b" name="Order_Quantity_Item4b" value="">
+      <input type="text" id="orderSummary_Item5a" name="Order_Quantity_Item5a" value="">
+      <input type="text" id="orderSummary_Item5b" name="Order_Quantity_Item5b" value="">
+      <input type="text" id="orderSummary_Item6a" name="Order_Quantity_Item6a" value="">
+      <input type="text" id="orderSummary_Item6b" name="Order_Quantity_Item6b" value="">
+      <input type="text" id="orderSummary_Item7a" name="Order_Quantity_Item7a" value="">
+      <input type="text" id="orderSummary_Item7b" name="Order_Quantity_Item7b" value="">
+      <input type="text" id="orderSummary_Item8a" name="Order_Quantity_Item8a" value="">
+      <input type="text" id="orderSummary_Item8b" name="Order_Quantity_Item8b" value="">
+      <input type="text" id="orderSummary_Item9a" name="Order_Quantity_Item9a" value="">
+      <input type="text" id="orderSummary_Item9b" name="Order_Quantity_Item9b" value="">
+      <input type="text" id="orderSummary_Item10a" name="Order_Quantity_Item10a" value="">
+      <input type="text" id="orderSummary_Item10b" name="Order_Quantity_Item10b" value="">
+        <input type="text" id="orderSummary_PricePP" name="Order_Summary_PricePP" value="">
+      <input type="submit" id="hiddenEmailBut" value="" />
+      <div class="hiddenRecipients">
+      <input type="text" id="recipients" name="recipients" value="corey@ahappylittledesignstudio.com">
+          <input type="hidden" name="subject" value="Love By hazel Wholesale Catalog Order" />
+      </div></div>
+  </form>
+  
+      <form name="payCheckEmail" action="http://www.coreysimpson.com/examples/js/hazelFlip/3M@!L/catalogOrderSuccessCheck.php" method="get" >
+      <div class="hiddenSummary">
+      
+      <input type="hidden" name="amount2" id="payPalTotal2" value="">
+      <input type="hidden" name="shipping" value="20.00">
+      <input type="text" id="first_Name2" name="First_Name" value="">
+      <input type="text" id="last_Name2" name="Last_Name" value="">
+      <input type="text" id="street_Addr2" name="Street_Addr" value="">
+      <input type="text" id="column_CITY2" name="city" value="" min="1" max="" >
+      <input type="text" id="column_STATE2" list="states" name="state" value="" min="1" max="" >
+      <input type="text" id="column_ZIP2" name="zip" value="" min="1" max="" >
+      <input type="tel" id="_phone2" name="night_phone_a" value="" min="1" max="30" >
+      <input type="email" id="email_Addr2" name="email">
+      <input type="email" id="email_AddrRepeat2" name="Email_Address_Confirm" oninput="check(this)">
+      <textarea type="text" id="column_COMMENTS2" name="Buyer_Comments"></textarea>
+      <input type="text" id="orderSummary_Price2" name="Order_Summary_Price" value=""> 
+      <input type="text" id="orderSummary_Shipping2" name="Order_Summary_Shipping" value="">
+      <input type="text" id="orderSummary_Total2" name="Order_Summary_Total" value="">
+      <input type="text" id="orderSummary_TotalPP2" name="Order_Summary_TotalPP" value="">
+      <input type="text" id="order_Method2" name="Method_Of_" value="Check">
+      <input type="text" id="orderSummary_Pieces2" name="Order_Summary_Pieces" value="">
+      <input type="text" id="orderSummary_Item1a2" name="Order_Quantity_Item1a" value="">
+      <input type="text" id="orderSummary_Item1b2" name="Order_Quantity_Item1b" value="">
+      <input type="text" id="orderSummary_Item2a2" name="Order_Quantity_Item2a" value="">
+      <input type="text" id="orderSummary_Item2b2" name="Order_Quantity_Item2b" value="">
+      <input type="text" id="orderSummary_Item3a2" name="Order_Quantity_Item3a" value="">
+      <input type="text" id="orderSummary_Item3b2" name="Order_Quantity_Item3b" value="">
+      <input type="text" id="orderSummary_Item4a2" name="Order_Quantity_Item4a" value="">
+      <input type="text" id="orderSummary_Item4b2" name="Order_Quantity_Item4b" value="">
+      <input type="text" id="orderSummary_Item5a2" name="Order_Quantity_Item5a" value="">
+      <input type="text" id="orderSummary_Item5b2" name="Order_Quantity_Item5b" value="">
+      <input type="text" id="orderSummary_Item6a2" name="Order_Quantity_Item6a" value="">
+      <input type="text" id="orderSummary_Item6b2" name="Order_Quantity_Item6b" value="">
+      <input type="text" id="orderSummary_Item7a2" name="Order_Quantity_Item7a" value="">
+      <input type="text" id="orderSummary_Item7b2" name="Order_Quantity_Item7b" value="">
+      <input type="text" id="orderSummary_Item8a2" name="Order_Quantity_Item8a" value="">
+      <input type="text" id="orderSummary_Item8b2" name="Order_Quantity_Item8b" value="">
+      <input type="text" id="orderSummary_Item9a2" name="Order_Quantity_Item9a" value="">
+      <input type="text" id="orderSummary_Item9b2" name="Order_Quantity_Item9b" value="">
+      <input type="text" id="orderSummary_Item10a2" name="Order_Quantity_Item10a" value="">
+      <input type="text" id="orderSummary_Item10b2" name="Order_Quantity_Item10b" value="">
+        <input type="text" id="orderSummary_PricePP2" name="Order_Summary_PricePP" value="">
+
+      <input type="submit" id="hiddenEmailButCheck" value="" />
+      <div class="hiddenRecipients">
+      <input type="text" id="recipients" name="recipients" value="corey@ahappylittledesignstudio.com">
+          <input type="hidden" name="subject" value="Love By hazel Wholesale Catalog Order" />
+      </div></div>
+  </form>
+
+  
+</div>
+  
+  </div><!-- close container //-->
+  
+  </body>
+   <script type="text/javascript">
+  
+  $("#flipbook").turn({
+          elevation:50,
+          height:600,
+          width:900,
+          autoCenter: true
+          });
+  
+  </script>
+  
+  <script>
+  //$(function() {$( "#slider" ).slider({
+  //    value:100,
+  //    min:0,
+  //    max:500,
+  //    step:50,
+  //    slide: function( event, ui ) {
+  //    $( "#amount" ).val( "$" + ui.value );
+  //    }        
+  //});
+  //$("#amount").val("$" + $("#slider").slider("value"));
+  //});
+  
+      
+      //$("#zoom-viewport").zoom({
+      //    flipbook: $("#flipbook"),
+       //   max:3
+      //});
+  
+  </script>
+  </html>

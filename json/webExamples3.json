@@ -1,0 +1,59 @@
+    {
+    "items" : [
+    {
+    "img": "imgs/websites/aHappyWeb.png",
+    "alt": "A Happy Little Design Studio website",
+    "href": "http://happylittledesignstudio.com",
+    "back": "A Happy Little Design Studio website - Toolset: Wordpres, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/operaWeb.png",
+    "alt": "OPERA website",
+    "href": "http://opera-app.net",
+    "back": "OPERA Oncology Patient Education and Resources App website - Toolset: Zurb Foundation, PHP, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/loveByHazel.png",
+    "alt": "love By Hazel website",
+    "href": "http://lovetennisbyhazel.com",
+    "back": "love By Hazel website - Toolset: Shopify, HTML/CSS, JS, jQuery"
+    },
+     {
+    "img": "imgs/websites/bellaWeb.png",
+    "alt": "Bella Electric Strings website",
+    "href": "http://bellastrings.com",
+    "back": "Bella Electric Strings website - Toolset: Wordpres, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/trifectaWeb.png",
+    "alt": "Trifecta Band website",
+    "href": "http://trifectaband.com",
+    "back": "Trifecta Band website - Toolset: Wordpress, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/ranishaWeb.png",
+    "alt": "Ranisha Singh Portfolio",
+    "href": "http://ranishasingh.com",
+    "back": "Ranisha Singh Portfolio - Toolset: Wordpress, HTML/CSS, JS, jQuery"
+    },
+    {
+    "img": "imgs/websites/cyndiCapWeb.png",
+    "alt": "Cyndi Cappello Photography",
+    "href": "http://cyndicappellophotography.com",
+    "back": "Cyndi Cappello Photography website - Toolset: Wordpress, HTML/CSS, JS"
+    },
+    {
+    "img": "imgs/websites/loveCatalog.png",
+    "alt": "love By Hazel Wholesale Catalog",
+    "href": "http://coreysimpson.com/examples/webExamples/catalogExample/",
+    "back": "Digital Flip Book Catalog - Toolset: HTML/CSS, JS"
+    },
+    {
+    "img": "imgs/Jane_ipad_app.jpg",
+    "alt": "Jane Goodrich - Pic-A-Day iPad App",
+    "href": "http://coreysimpson.com/examples/webExamples/JGApp/",
+    "back": "Jane Goodrich - Pic-A-Day Web App"
+    }
+    ]
+    }
+

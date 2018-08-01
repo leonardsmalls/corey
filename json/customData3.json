@@ -1,0 +1,37 @@
+    {
+    "items" : [
+    {
+    "img": "imgs/owl1.jpg",
+    "alt" : "Owl Image 1",
+    "href" : "calculator33333.html",
+    "back" : "first web site"
+    },
+    {
+    "img": "imgs/owl1.jpg",
+    "alt" : "Owl Image 2",
+    "href" : "examples/jsExamples/calc",
+    "back" : "second web site"
+    },
+    {
+    "img": "assets/owl3.jpg",
+    "alt" : "Owl Image 3",
+    "href" : "calculator.html"
+    },
+    {
+    "img": "assets/owl4.jpg",
+    "alt" : "Owl Image 2",
+    "href" : "calculator.html"
+    },
+    {
+    "img": "assets/owl5.jpg",
+    "alt" : "Owl Image 1",
+    "href" : "calculator.html"
+    },
+    {
+    "img": "assets/owl6.jpg",
+    "alt" : "Owl Image 2",
+    "href" : "calculator.html"
+    }
+    ]
+    }
+
